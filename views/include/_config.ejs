@@ -1,0 +1,34 @@
+ <!-- form handling -->
+ <form action="/api/config" method="POST" id="config">
+    <div class="new-config">
+        <div class="form-group">
+            <label for="nodeid" class="text-light">Node ID</label>
+            <input type="text" name="nodeid" value="" placeholder="Enter Node ID">
+        </div>
+        <div class="form-group">
+            <h2>EC:</h2>
+            <input type="checkbox" id="ec" name="ec">
+            <label for="ec" class="text-light">Active</label>
+        </div>
+        <div class="form-group">
+            <h2>Turbidity:</h2>
+            <input type="checkbox" id="tbd" name="tbd">
+            <label for="tbd" class="text-light">Active</label>
+        </div>
+        <div class="form-group">
+            <h2>pH:</h2>
+            <input type="checkbox" id="ph" name="ph">
+            <label for="ph" class="text-light">Active</label>
+        </div>
+
+        <div class="form-group">
+            <h2>NH3N:</h2>
+            <input type="checkbox" id="nh3n" name="nh3n">
+            <label for="nh3n" class="text-light">Active</label>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+    </div>
+</form>
